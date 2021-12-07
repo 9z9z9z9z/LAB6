@@ -15,7 +15,7 @@ int getValue()
 		cout << '\n';
 		if (cin.fail())
 		{
-			cin.clear(); // 
+			cin.clear();
 			cin.ignore(32767, '\n');
 		}
 		else return a;
@@ -34,7 +34,7 @@ double getValueD()
 
 		if (cin.fail())
 		{
-			cin.clear(); // 
+			cin.clear();
 			cin.ignore(32767, '\n');
 		}
 		else return a;
